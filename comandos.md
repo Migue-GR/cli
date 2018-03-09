@@ -105,3 +105,13 @@ Ejecutar la siguiente combinación de teclas para
 
 ### Pegar portapapeles
 `[SHIFT] + Insert`
+
+## Apagar PC
+`shutdown -s`: Apaga el equipo local después de 1 minuto de ejecutar el comando
+`shutdown -r`: Reinicia el equipo local (después de 1 minuto)
+`shutdown -p`: Apaga el equipo local sin tiempo de espera ni advertencia
+`shutdown -h`: Hiberna el equipo local (después de un 1 minuto)
+`shutdown -f`: Fuerza el cierre de todas las aplicaciones en ejecución sin advertir previamente a los usuarios
+`shutdown -s -t 3600`: la bandera `-t [tiempo especificado en segundos]` asigna un tiempo de espera personalizado a las banderas: `-s` y `-r`
+`shutdown --help`: Ver todos las banderas disponibles para este comando.
+
